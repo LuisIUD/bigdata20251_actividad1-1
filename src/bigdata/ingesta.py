@@ -82,14 +82,14 @@ class UserDataProcessor:
             
         cursor = self.conn.cursor()
         registros_insertados = 0
-        fecha_extraccion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
         
         try:
             if 'results' in self.data:
                 for usuario in self.data['results']:
                     cursor.execute('''
                     INSERT OR REPLACE INTO usuarios 
-                    (nombre, apellido, email, genero, pais, fecha_extraccion)
+                    (nombre, apellido, email, genero, pais)
                     VALUES (?, ?, ?, ?, ?, ?)
                     ''', (
                         usuario['name']['first'],
@@ -97,7 +97,7 @@ class UserDataProcessor:
                         usuario['email'],
                         usuario['gender'],
                         usuario['location']['country'],
-                        fecha_extraccion
+                        
                     ))
                     registros_insertados += 1
             

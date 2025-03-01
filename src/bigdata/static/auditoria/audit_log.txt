@@ -1,5 +1,5 @@
 === REPORTE DE AUDITORÍA ===
-Fecha y hora: 2025-03-01 02:12:48
+Fecha y hora: 2025-03-01 02:27:12
 
 Registros obtenidos del API: 5
 Registros almacenados en la base de datos: 5
