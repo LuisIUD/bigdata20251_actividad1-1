@@ -21,13 +21,14 @@ class UserDataProcessor:
         self.base_url = base_url
         self.data = {}
         self.conn = None
-        self.db_path = 'src/user_data.db'
-        self.sample_path = 'src/sample_users.xlsx'
-        self.audit_path = 'src/audit_log.txt'
+        self.db_path = 'src/bigdata/static/db/user_data.db'
+        self.sample_path = 'src/bigdata/static/muestras/sample_users.xlsx'
+        self.audit_path = 'src/bigdata/static/auditoria/audit_log.txt'
         
         # Crear estructura de directorios si no existen
         os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
         os.makedirs(os.path.dirname(self.sample_path), exist_ok=True)
+        os.makedirs(os.path.dirname(self.audit_path), exist_ok=True)
     
     def obtener_datos_api(self, cantidad=5):
         """
