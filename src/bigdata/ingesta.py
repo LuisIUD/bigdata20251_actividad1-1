@@ -18,9 +18,9 @@ class UserDataProcessor:
         self.base_url = base_url
         self.data = {}
         self.conn = None
-        self.db_path = 'src/bigdata/static/db/user_data.db'
-        self.sample_path = 'src/bigdata/static/db/sample_users.xlsx'
-        self.audit_path = 'src/bigdata/static/auditoria/audit_log.txt'
+        self.db_path = 'src/user_data.db'
+        self.sample_path = 'src/sample_users.xlsx'
+        self.audit_path = 'src/audit_log.txt'
         
         # Crear estructura de directorios si no existen
         os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
@@ -141,7 +141,7 @@ class UserDataProcessor:
         
         with open(self.audit_path, 'w', encoding='utf-8') as f:
             f.write("=== REPORTE DE AUDITORÍA ===\n")
-            
+            f.write(f"Fecha y hora: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
             f.write(f"Registros obtenidos del API: {registros_api}\n")
             f.write(f"Registros almacenados en la base de datos: {registros_db}\n\n")
             
