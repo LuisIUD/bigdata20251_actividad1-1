@@ -1,7 +1,7 @@
 === REPORTE DE AUDITORÍA ===
-Fecha y hora: 2025-03-01 14:34:11
+Fecha y hora: 2025-03-01 14:41:27
 
 Registros obtenidos del API: 5
-Registros almacenados en la base de datos: 5
+Registros almacenados en la base de datos: 10
 
-✓ ÉXITO: Todos los registros fueron almacenados correctamente.
+⚠ ADVERTENCIA: Hay una diferencia de 5 registros.
