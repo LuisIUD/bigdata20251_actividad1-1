@@ -1,8 +1,8 @@
 === REPORTE DE LIMPIEZA ===
-Fecha y hora: 2025-03-14 22:46:37
+Fecha y hora: 2025-03-15 23:10:49
 
 Antes de la limpieza:
-{'total_registros': 5000, 'duplicados': np.int64(0), 'valores_nulos': {'id': 0, 'nombre': 0, 'apellido': 0, 'email': 0, 'genero': 0, 'pais': 0, 'fecha_extraccion': 0}, 'tipos_de_datos': {'id': dtype('int64'), 'nombre': dtype('O'), 'apellido': dtype('O'), 'email': dtype('O'), 'genero': dtype('O'), 'pais': dtype('O'), 'fecha_extraccion': dtype('O')}}
+{'total_registros': 5500, 'duplicados': np.int64(0), 'valores_nulos': {'id': 0, 'nombre': 242, 'apellido': 0, 'email': 0, 'genero': 0, 'pais': 0, 'fecha_extraccion': 0}, 'tipos_de_datos': {'id': dtype('int64'), 'nombre': dtype('O'), 'apellido': dtype('O'), 'email': dtype('O'), 'genero': dtype('O'), 'pais': dtype('O'), 'fecha_extraccion': dtype('O')}}
 
 Después de la limpieza:
-{'total_registros': 5000, 'duplicados': np.int64(0), 'valores_nulos': {'id': 0, 'nombre': 0, 'apellido': 0, 'email': 0, 'genero': 0, 'pais': 0, 'fecha_extraccion': 0}, 'tipos_de_datos': {'id': dtype('int64'), 'nombre': dtype('O'), 'apellido': dtype('O'), 'email': dtype('O'), 'genero': dtype('O'), 'pais': dtype('O'), 'fecha_extraccion': dtype('O')}}
+{'total_registros': 5258, 'duplicados': np.int64(0), 'valores_nulos': {'id': 0, 'nombre': 0, 'apellido': 0, 'email': 0, 'genero': 0, 'pais': 0, 'fecha_extraccion': 0}, 'tipos_de_datos': {'id': dtype('int64'), 'nombre': dtype('O'), 'apellido': dtype('O'), 'email': dtype('O'), 'genero': dtype('O'), 'pais': dtype('O'), 'fecha_extraccion': dtype('O')}}
