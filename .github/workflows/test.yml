@@ -31,13 +31,15 @@ jobs:
       - name: paso5 - Ejecutar script ACTIVIDAD 1
         run: python src/bigdata/ingesta.py 
       - name: paso6 - Ejecutar script ACTIVIDAD 2
-        run: python src/bigdata/cleaning.py 
+        run: python src/bigdata/cleaning.py   
+      - name: paso7 - Ejecutar script ACTIVIDAD 3
+        run: python src/bigdata/transform.py 
         
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: generación informe prueba json
+          commit_message: entrega actividad 1, 2 y 3
           commit_user_name: Luis Pachon [GitHub Actions]
           commit_user_email: luis.pachon@est.iudigital.edu.co
           commit_author: Luis Pachon <luis.pachon@est.iudigital.edu.co>
