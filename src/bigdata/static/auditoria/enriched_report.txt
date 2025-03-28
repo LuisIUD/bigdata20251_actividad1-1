@@ -1,0 +1,6 @@
+=== REPORTE DE ENRIQUECIMIENTO ===
+Fecha y hora: 2025-03-28 04:41:32
+
+Registros en dataset base: 5255
+Registros en dataset adicional: 5255
+Total registros en dataset enriquecido: 10510
