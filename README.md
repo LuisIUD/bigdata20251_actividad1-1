@@ -21,11 +21,6 @@ Este repositorio contiene un flujo completo de procesamiento de datos utilizando
  cd bigdata20251_actividad1-1
 ```
 
-### Instalación de Dependencias
-```sh
-pip install -r requirements.txt
-```
-
 ## Ejecución Manual
 
 ### 1. Ejecutar el Proceso de Ingesta
